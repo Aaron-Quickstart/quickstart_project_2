@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Find-a-GIF</title>
+    <link rel="stylesheet" href="css/global.css">
+    <script src="js/global.js"></script>
 </head>
 <body>
-    
+    <main>
+        <div id="title_">
+            <h1>
+                The Joke Maker
+            </h1>
+        </div>
+
+        <div id="search_bar_and_button">
+            <input type="text" maxlength="25"placeholder="Search">
+            <button onclick="searchForGif()">Search</button>
+        </div>
+
+        <div id="searchResults"></div>
+    </main>
 </body>
 </html>
