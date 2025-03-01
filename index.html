@@ -3,22 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find-a-GIF</title>
-    <link rel="stylesheet" href="css/global.css">
+    <title>Page5 - Giphy API Search</title>
     <script src="js/global.js"></script>
 </head>
-<body>
-    <main>
-        <h1 id="title_">
-            The Joke Maker
-        </h1>
-    <br><br><br><br><br>
-        <div id="search_">
-            <input type="text" maxlength="25"placeholder="Search">
-            <button onclick="searchForGif()">Search</button>
+<body onload="page_load()">
+    <main class="global-center-page">
+        <header>
+            <h2>
+                Page4 - Giphy API Search 
+            </h2>
+        </header>
+        <p></p>
+            <div>
+                <input type="text" id="txtsearch" placeholder="# enter text to search" maxlength="25">
+                <button onclick="btnSearch()">search</button>
+                <a href="#" onclick="lnkClear()">clear</a>
+            </div>            
+        <p></p>
+        <div id="divdisplayinfo" class="div-scroll-1">
         </div>
-    <br><br><br>
-        <div id="displaySearchResults"></div>
+        <p></p>
+        <div>
+            <a href="#" onclick="giphyApiDemo1()">Giphy Api demo 1</a><br>            
+        </div>
+        <p></p>
     </main>
+    <p></p>
+    <footer class="global-footer">
+        footer @ 2025
+    </footer>
 </body>
 </html>
