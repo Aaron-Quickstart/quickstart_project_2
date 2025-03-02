@@ -3,34 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page5 - Giphy API Search</title>
+    <title>API Search Engine</title>
+    <link rel="stylesheet" href="css/global.css">
     <script src="js/global.js"></script>
 </head>
-<body onload="page_load()">
-    <main class="global-center-page">
-        <header>
-            <h2>
-                Page4 - Giphy API Search 
-            </h2>
-        </header>
-        <p></p>
-            <div>
-                <input type="text" id="txtsearch" placeholder="# enter text to search" maxlength="25">
-                <button onclick="btnSearch()">search</button>
-                <a href="#" onclick="lnkClear()">clear</a>
-            </div>            
-        <p></p>
-        <div id="divdisplayinfo" class="div-scroll-1">
-        </div>
-        <p></p>
-        <div>
-            <a href="#" onclick="giphyApiDemo1()">Giphy Api demo 1</a><br>            
-        </div>
-        <p></p>
+
+<body>
+    <main>
+        <h1>
+            Giphy Search
+        </h1>
+        <br>
+        <br>
+        <br>
+
+        <input type="text" placeholder="Find a Gif" id="userInput">
+        <button id="searchBtn" onclick="searchGiphy()">Search</button>
+        <br>
+        <br>
+        <br>
+
+        <div id="displayAreaDiv"></div>
+        
     </main>
-    <p></p>
-    <footer class="global-footer">
-        footer @ 2025
-    </footer>
 </body>
 </html>
