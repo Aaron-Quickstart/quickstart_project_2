@@ -9,6 +9,7 @@ function searchGiphy()
     console.log(msgText);
     displayDiv.innerHTML = msgText;
 
+    
     if ((searchTerm == null) | (searchTerm == undefined))
     {
         msgText = 'Did not find input field';
@@ -63,12 +64,7 @@ function searchGiphy()
             displayDiv.innerText = "I cant seem to find any matches.";
             return false;
         }
- 
-       /* resultImage = data.data[0].images.original.url;
-        console.log(resultImage);
-        console.log("above");
-        displayDiv.innerHTML = `<img width='100' height='100' src='${resultImage}'>`
-        */
+
     
         let divHTML = ""
         for (i=0; i<12;i++)
