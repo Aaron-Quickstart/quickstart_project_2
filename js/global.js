@@ -9,8 +9,8 @@ function searchGiphy()
     console.log(msgText);
     displayDiv.innerHTML = msgText;
 
-    
-    if ((searchTerm == null) | (searchTerm == undefined))
+
+    if ((searchTerm == null) || (searchTerm == undefined))
     {
         msgText = 'Did not find input field';
         console.log(msgText);
@@ -59,7 +59,7 @@ function searchGiphy()
         console.log(data)
         let resultImage = "";
         
-        if ((data == null) | (data.data.length == 0))
+        if ((data == null) || (data.data.length == 0))
         {
             displayDiv.innerText = "I cant seem to find any matches.";
             return false;

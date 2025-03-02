@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-color: #d8dee3;
+    font-family: "Audiowide", sans-serif;
 }
 #displayAreaDiv{
     display: flex;
@@ -12,11 +13,14 @@ button{
     border-radius: 30px;
     border-width: 1px;
     background-color: blanchedalmond;
+    font-family: "Audiowide", sans-serif;
 }
 input{
     background-color: blanchedalmond;
+    font-family: "Audiowide", sans-serif;
 }
 img{
     margin: 15px;
     border-radius: 15px;
 }
+
