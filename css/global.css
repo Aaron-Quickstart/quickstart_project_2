@@ -31,3 +31,7 @@ nav{
 a{
     margin-left: 10px;
 }
+footer{
+    position: fixed;
+    bottom: 15px;
+}

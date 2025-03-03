@@ -75,6 +75,7 @@ function searchGiphy()
         }
 
         displayDiv.innerHTML = divHTML;
+
     })
 
 }
