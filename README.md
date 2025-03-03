@@ -21,6 +21,6 @@
 - Show an emphisis on the gif under the cursor
 
 ## GitHub Code Repository 
-
+- https://github.com/Aaron-Quickstart/quickstart_project_2.git
 ## GitHub Website URL 
-
+https://aaron-quickstart.github.io/quickstart_project_2/
