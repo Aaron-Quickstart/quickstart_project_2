@@ -23,4 +23,11 @@ img{
     margin: 15px;
     border-radius: 15px;
 }
-
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start
+}
+a{
+    margin-left: 10px;
+}
